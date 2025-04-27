@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>s, r, c. | Math</title>
+        <link rel="icon" href="/stuff/toro.png">
+        <link rel="stylesheet" href="/stuff/css/styles.css">
+        <script src="/stuff/js/search.js"></script>
+        <script src="/stuff/js/loading.js"></script>
+        <script src="/stuff/js/settings.js"></script>
+        <script src="/stuff/js/moresettings.js"></script>
+        <script src="/stuff/js/alert.js"></script>
+        <script src="/stuff/js/messages.js"></script>
+        <link rel="icon" href="/stuff/logo.png">
+        <meta property="og:title" content="solos thingy">
+        <meta name="theme-color" content="#00ffa6">
+        <meta name="msapplication-TileColor" content="#00ffa6">
+        <meta property="og:image" content="/stuff/toro.png">
+        <meta name="description" content="one of the best game sites out there!">
+        <meta property="og:description" content="one of the best game sites out there!">
+    </head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JMXEZ1F6QH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-JMXEZ1F6QH');
+    </script>
+    <body>
+        <div id="loading-screen">
+            <div class="spinner">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <h1 id="messageforyou"></h1>
+            <div id="dabottom" style="display: none">
+                <h1>
+                    <a onclick="loadthething()">skip ts loading</a>
+                </h1>
+            </div>
+        </div>
+        <div id="header">
+            <img class="headericons" style="transform: scale(1.3);" src="/stuff/toro.png" onclick="window.location.href='/';">
+            <div class="right">
+                <img class="headericons" src="/stuff/icons/gamepad-solid.svg" onclick="window.location.href='/math/';">
+                <img class="headericons" src="/stuff/icons/border-all-solid.svg" onclick="window.location.href='/reading/';">
+                <img class="headericons" src="/stuff/icons/handshake-solid.svg" onclick="window.location.href='/partners.html';">
+                <img class="headericons" src="/stuff/icons/plus-solid.svg" onclick="window.location.href='/extras.html';">
+            </div>
+        </div>
+        <div class="message-box" id="messageBox"></div>
+        <div id="roddyricchboxselect">
+            <br>
+            <br>
+            <h1>games</h1>
+            <input id="searchbar" placeholder="find what you want...">
+            <br>
+            <img class=".gamebtns" src="/stuff/games/roblox.png" alt="roblox" onclick="setnggpath('/embed/roblox.html');">
+            <img class=".gamebtns" src="/stuff/games/pubg.png" alt="pubg mobile" onclick="setnggpath('/embed/pubg-mobile-cloud-online.html');">
+            <img class=".gamebtns" src="/stuff/games/stumbleguys.jpg" alt="stumble guys" onclick="setnggpath('/embed/stumble-guys-cloud-online.html');">
+            <img class=".gamebtns" src="/stuff/games/melonsandbox.png" alt="melon sandbox" onclick="setnggpath('/embed/melon-sandbox.html');">
+            <img class=".gamebtns" src="/stuff/games/fortnite.png" alt="fortnite" onclick="setnggpath('/embed/fortnite-battle-royale-cloud-online.html');">
+            <img class=".gamebtns" src="/stuff/games/fifa.jpg" alt="fifa mobile" onclick="setnggpath('/embed/ea-sports-fc-uefa-euro-2024.html');">
+            <img class=".gamebtns" src="/stuff/games/geodash.png" alt="geometry dash" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/gdlite/';">
+            <img class=".gamebtns" src="/stuff/games/getaway-shootout.png" alt="getaway shootout" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/rayvon-shootout/';">
+            <img class=".gamebtns" src="/stuff/games/rooftop-snipers.jpg" alt="rooftop snipers" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/rooftop-snipers/';">
+            <img class=".gamebtns" src="/stuff/games/rooftop-snipers2.jpg" alt="rooftop snipers 2" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/rooftop-snipers-2/';">
+            <img class=".gamebtns" src="/stuff/games/tubejumpers.png" alt="tube jumpers" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/tube-jumpers';">
+            <img class=".gamebtns" src="/stuff/games/fnaf1.png" alt="five nights at freddys" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/fnaf1';">
+            <img class=".gamebtns" src="/stuff/games/fnaf2.png" alt="five nights at freddys 2" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/fnaf2';">
+            <img class=".gamebtns" src="/stuff/games/fnaf3.png" alt="five nights at freddys 3" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/fnaf3';">
+            <img class=".gamebtns" src="/stuff/games/fnaf4.png" alt="five nights at freddys 4" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/fnaf4';">
+            <img class=".gamebtns" src="/stuff/games/ucn.jpg" alt="ultimate custom night" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/ucn';">
+            <img class=".gamebtns" src="/stuff/games/minecraft.jpg" alt="minecraft" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/minecraft';">
+            <img class=".gamebtns" src="/stuff/games/subway.png" alt="subway surfers" onclick="window.location.href='/iframe.html?url=/cdn/projects/subway-surfers/';">
+            <img class=".gamebtns" src="/stuff/games/1v1.png" alt="1v1.lol" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/1v1lol';">
+            <img class=".gamebtns" src="/stuff/games/crossyroad.jpeg" alt="crossy road" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/crossyroad';">
+            <img class=".gamebtns" src="/stuff/games/slowroads.png" alt="slowroads" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/slowroads';">
+            <img class=".gamebtns" src="/stuff/games/happywheels.jpg" alt="happy wheels" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/happywheels';">
+            <img class=".gamebtns" src="/stuff/games/polytrack.jpg" alt="polytrack" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/polytrack';">
+            <img class=".gamebtns" src="/stuff/games/slope.jpg" alt="slope" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/slope';">
+            <img class=".gamebtns" src="/stuff/games/aswc.png" alt="a small world cup" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/asmallworldcup';">
+            <img class=".gamebtns" src="/stuff/games/bitlife.jpg" alt="bitlife" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/bitlife';">
+            <img class=".gamebtns" src="/stuff/games/monkey-mart.jpg" alt="monkey mart" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/monkey-mart';">
+            <img class=".gamebtns" src="/stuff/games/drive-mad.png" alt="drive mad" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/drive-mad';">
+            <img class=".gamebtns" src="/stuff/games/monster-tracks.png" alt="monster tracks" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/monster-tracks';">
+            <img class=".gamebtns" src="/stuff/games/adofai.png" alt="a dance of fire and ice" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/a-dance-of-fire-and-ice';">
+            <img class=".gamebtns" src="/stuff/games/cannonbasketball4.jpg" alt="cannon basketball 4" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/cannon-basketball-4';">
+            <img class=".gamebtns" src="/stuff/games/dragondeeznuts.jpg" alt="dragon vs icy bricks" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/dragon-vs-bricks';">
+            <img class=".gamebtns" src="/stuff/games/dodge.png" alt="dodge" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/dodge';">
+            <img class=".gamebtns" src="/stuff/games/baldi.png" alt="baldis basics in education and learning" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/baldis-basics';">
+            <img class=".gamebtns" src="/stuff/games/100ng.jpg" alt="100 player pong" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/100ng';">
+            <img class=".gamebtns" src="/stuff/games/burritobison.jpg" alt="burrito bison" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/burrito-bison';">
+            <img class=".gamebtns" src="/stuff/games/rhythmhell.png" alt="rhythm hell" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/rhythm-hell';">
+            <img class=".gamebtns" src="/stuff/games/baconmaydie.jpg" alt="bacon may die" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/bacon-may-die';">
+            <img class=".gamebtns" src="/stuff/games/venge.jpg" alt="venge" onclick="window.location.href='/algebra.html?url=https://venge.io';">
+            <img class=".gamebtns" src="/stuff/games/soccerrandom.jpg" alt="soccer random" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/soccer-random';">
+            <img class=".gamebtns" src="/stuff/games/basketrandom.png" alt="basket random" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/basket-random';">
+            <img class=".gamebtns" src="/stuff/games/boxingrandom.png" alt="boxing random" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/boxing-random';">
+            <img class=".gamebtns" src="/stuff/games/volleyrandom.png" alt="volley random" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/volley-random';">
+            <img class=".gamebtns" src="/stuff/games/bouncybasketball.png" alt="bouncy basketball" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/bouncy-basketball';">
+            <img class=".gamebtns" src="/stuff/games/adventuredrivers.png" alt="adventure drivers" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/adventure-drivers';">
+            <img class=".gamebtns" src="/stuff/games/cookieclicker.png" alt="cookie clicker" onclick="window.location.href='/iframe.html?url=/cdn/projects/cookie-clicker/index.html';">
+            <img class=".gamebtns" src="/stuff/games/stickmanhook.jpg" alt="stickman hook" onclick="window.location.href='/iframe.html?url=/cdn/projects/stickman-hook/';">
+            <img class=".gamebtns" src="/stuff/games/ovo.png" alt="ovo" onclick="window.location.href='/iframe.html?url=/cdn/projects/ovo/';">
+            <img class=".gamebtns" src="/stuff/games/doom.jpg" alt="doom" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/doom/';">
+            <img class=".gamebtns" src="/stuff/games/totm.png" alt="tomb of the mask" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/tomb-of-the-mask/';">
+            <img class=".gamebtns" src="/stuff/games/btts.png" alt="big tower tiny square" onclick="window.location.href='/iframe.html?url=/cdn/projects/btts/';">
+            <img class=".gamebtns" src="/stuff/games/halflife.jpg" alt="half-life" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/half-life/';">
+            <img class=".gamebtns" src="/stuff/games/superhot.png" alt="superhot" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/super-hot/';">
+            <img class=".gamebtns" src="/stuff/games/retrohellicopter.png" alt="retro hellicopter" onclick="window.location.href='/algebra.html?url=https://www.coolmathgames.com/0-retro-helicopter/play';">
+            <img class=".gamebtns" src="/stuff/games/hexgl.png" alt="hexgl" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/hexgl/';">
+            <img class=".gamebtns" src="/stuff/games/buckshot.jpg" alt="buckshot roulette" onclick="window.location.href='/iframe.html?url=stuff/selfhosted/buckshot-roulette/';">
+            <img class=".gamebtns" src="/stuff/games/skribbl.png" alt="skribbl.io" onclick="window.location.href='/algebra.html?url=https://skribbl.io';">
+            <img class=".gamebtns" src="/stuff/games/nzp.png" alt="nazi zombies portable" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/nzp/';">
+            <img class=".gamebtns" src="/stuff/games/superfowlst.png" alt="super fowlst" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/super-foulist/';">
+            <img class=".gamebtns" src="/stuff/games/basket-bros.png" alt="basket bros" onclick="window.location.href='/iframe.html?url=/cdn/projects/basketbros-io/';">
+            <img class=".gamebtns" src="/stuff/games/quake.jpg" alt="quake" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/quake/';">
+            <img class=".gamebtns" src="/stuff/games/run3.png" alt="run 3" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/run3/';">
+            <img class=".gamebtns" src="/stuff/games/btr2.png" alt="bob the robber 2" onclick="window.location.href='/iframe.html?url=/cdn/projects/bobtherobber2/index.html';">
+            <img class=".gamebtns" src="/stuff/games/evio.png" alt="ev.io" onclick="window.location.href='/algebra.html?url=https://ev.io';">
+            <img class=".gamebtns" src="/stuff/games/motox3m.jpg" alt="moto x3m" onclick="window.location.href='/iframe.html?url=/cdn/projects/motox3m/index.html';">
+            <img class=".gamebtns" src="/stuff/games/flappybird.png" alt="flappy bird" onclick="window.location.href='/iframe.html?url=/cdn/projects/flappybird/';">
+            <img class=".gamebtns" src="/stuff/games/tanuki.jpg" alt="tanuki sunset" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/tanuki-sunset/';">
+            <img class=".gamebtns" src="/stuff/games/basketball-stars.png" alt="basketball stars" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/basketball-stars/';">
+            <img class=".gamebtns" src="/stuff/games/tag.png" alt="tag" onclick="window.location.href='/algebra.html?url=https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://118473026-235917736205837253.preview.editmysite.com/uploads/b/146211889-618141766941606391/files/tag.xml&amp;container=ig';">
+            <img class=".gamebtns" src="/stuff/games/zombs.png" alt="zombs royale" onclick="window.location.href='/algebra.html?url=https://fortnite.io';">
+            <img class=".gamebtns" src="/stuff/games/uno.png" alt="uno" onclick="window.location.href='/algebra.html?url=https://buddyboardgames.com/uno';">
+            <img class=".gamebtns" src="/stuff/games/endlesstruck.png" alt="endless truck" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/endless-truck/';">
+            <img class=".gamebtns" src="/stuff/games/retrobowl.png" alt="retro bowl" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/retro-bowl/';">
+            <img class=".gamebtns" src="/stuff/games/blockblast.png" alt="block blast" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/blockblast/';">
+            <img class=".gamebtns" src="/stuff/games/driftboss.png" alt="drift boss" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/drift-boss/';">
+            <img class=".gamebtns" src="/stuff/games/pizzatower.jpg" alt="pizza tower" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/pizzatower/';">
+            <img class=".gamebtns" src="/stuff/games/fnaw.jpg" alt="five nights at winstons" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/fnaw/';">
+            <img class=".gamebtns" src="/stuff/games/wbwwb.png" alt="we become what we behold" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/wbwwb/';">
+            <img class=".gamebtns" src="/stuff/games/baf.png" alt="burger and frights" onclick="window.location.href='/iframe.html?url=/cdn/projects/burger-and-frights/index.html';">
+            <img class=".gamebtns" src="/stuff/games/10mtd.png" alt="10 minutes till dawn" onclick="window.location.href='/iframe.html?url=/cdn/projects/10-minutes-till-dawn/index.html';">
+            <img class=".gamebtns" src="/stuff/games/slither.jpg" alt="slither.io" onclick="window.location.href='/algebra.html?url=https://slither.io';">
+            <img class=".gamebtns" src="/stuff/games/ragdollarchers.jpg" alt="ragdoll archers" onclick="window.location.href='/iframe.html?url=/stuff/selfhosted/ragdoll-archers/';">
+            <br>
+            <p>you've reached the end...</p>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div id="footer">
+            <p id="online">online users:</p>
+            <div class="right">
+                <img class="headericons" src="/stuff/icons/settings.png" onclick="window.location.href='/settings.html';">
+                <img class="headericons" id="userpfp" src="/stuff/icons/user.png" onclick="window.location.href='/profile/';">
+            </div>
+        </div>
+        <div id="lowtaperfade"></div>
+        <div id="particles-js"></div>
+        <script src="/particles.js"></script>
+        <script src="/app.js"></script>
+        <script>
+            let socket
+            function connectWebSocket() {
+                socket = new WebSocket(getprotocol() + window.location.host + '/api/onlineusers');
+
+                socket.onmessage = (event) => {
+                    const data = JSON.parse(event.data);
+                    document.getElementById("online").innerText = `online users: ${data.users}`;
+                }
+                ;
+
+                socket.onclose = () => {
+                    console.warn(`attempting to get online users...`, event);
+                    setTimeout(connectWebSocket, 5000);
+                    document.getElementById("online").innerText = "online users: ?";
+                }
+                ;
+
+                socket.onerror = function(error) {
+                    console.error(`WebSocket error:`, error);
+                    webSocket.close();
+                }
+                ;
+            }
+            connectWebSocket();
+            function loadthething() {
+                const loadingScreen = document.getElementById('loading-screen');
+                setTimeout(function() {
+                    loadingScreen.classList.add('fade-out');
+                    setTimeout(function() {
+                        document.body.classList.remove('loading');
+                    }, 100);
+                }, 100);
+            }
+            function setnggpath(path) {
+                window.location.href = "/algebra.html?url=https://easyfun.gg" + path + "?start=1"
+            }
+        </script>
+    </body>
+</html>
